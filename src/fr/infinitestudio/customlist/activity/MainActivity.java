@@ -49,7 +49,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	public void onActivityResult(int requestCode, int resultCode, Intent data) {
 		// On teste le retour de l'activité ListColorsActivity
 		if (requestCode == REQUEST_CODE && resultCode == Activity.RESULT_OK) {
-			// On construit le message a afficher suivant les couleurs sélectionnées
+			// On construit le message à afficher suivant les couleurs sélectionnées
 			colorsSelected = data.getParcelableArrayListExtra(EXTRA_COLORS_SELECTED);
 			if(colorsSelected.isEmpty()){
 				infosColorsSelected.setText(R.string.emptyColors);
