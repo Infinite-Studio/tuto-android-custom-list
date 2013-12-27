@@ -1,4 +1,4 @@
-APK Expansion Files pour applications Android
+Android – Liste personnalisée
 ========================
 
 L'objectif de ce tutoriel va être de créer une liste personnalisée pour une application Android. Pour l'exemple j'ai voulu refaire une liste déroulante présente dans l'application Gmail lors de la sélection des libellés d'un email. L'application sera très simple : un écran d'accueil sur lequel il y aura un texte et un bouton pour accéder à la liste déroulante dans laquelle on choisit différentes couleurs qui seront ensuite affichées sur la page d'accueil.
