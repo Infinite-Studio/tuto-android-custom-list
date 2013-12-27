@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tuto Custom List</string>
+    <string name="btnChooseColors">Choix des couleurs</string>
+    <string name="txtDefaultText">Veuillez choisir vos couleurs préférées en cliquant sur le bouton</string>
+    <string name="listColorsActivityTitle">Choix des couleurs</string>
+    <string name="emptyColors">Aucune couleur n\'a été sélectionnée</string>
+    <string name="colorsSelected">Couleurs sélectionnées&#160;:&#160;%1$s</string>
+</resources>
