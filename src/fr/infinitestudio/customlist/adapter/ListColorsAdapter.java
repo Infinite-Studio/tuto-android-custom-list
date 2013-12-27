@@ -27,7 +27,7 @@ public class ListColorsAdapter extends ArrayAdapter<Color> {
 	public View getView(int position, View convertView, ViewGroup parent) {
 		
 		ColorsViewHolder colorsViewHolder;
-		// Gestion des performances : on "inflate" et on rechercher les composants si nécessaire
+		// Gestion des performances : on "inflate" et on recherche les composants si nécessaire
 		if (convertView == null) {
 			convertView = View.inflate(context, resource, null);
  
