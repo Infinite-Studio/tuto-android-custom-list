@@ -41,7 +41,7 @@ public class ListColorsAdapter extends ArrayAdapter<Color> {
         	colorsViewHolder = (ColorsViewHolder) convertView.getTag();
         }
  
-		// On alimente notre objet Color
+		// On récupère notre objet Color
 		Color color = getItem(position);
         if (color != null) {
         	colorsViewHolder.text.setText(color.getLabel());
